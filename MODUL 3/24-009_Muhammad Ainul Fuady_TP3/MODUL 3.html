@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>24-009 Student Form</title>
+  </head>
+  <body bgcolor="#73c6b6">
+    <font face="arial" size="3" color="#f7f9f9">
+      <form action="#" method="get">
+        <fieldset>
+          <!-- START PERSONAL DATA -->
+          <h1 align="center">STUDENT DATA</h1>
+          <table border="0" cellpadding="7" cellspacing="0" align="center">
+            <tr>
+              <td bgcolor="#1d8348" colspan="4"><b>PERSONAL DATA</b></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="fname">Name</label>
+              </td>
+              <td>
+                <input type="text" name="fname" id="fname" size="30" required />
+              </td>
+              <td>
+                <input type="text" name="mname" id="mname" size="30" required />
+              </td>
+              <td>
+                <input type="text" name="lname" id="lname" size="32" required />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="fname"><font size="1">First name</font></label>
+              </td>
+              <td>
+                <label for="mname"><font size="1">Middle name</font></label>
+              </td>
+              <td>
+                <label for="lname"><font size="1">Last name</font></label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="nim">Nim</label></td>
+              <td colspan="2">
+                <input type="text" name="nim" id="nim" size="67" required />
+              </td>
+              <td>
+                <select>
+                  <option>
+                    -- Year of University Extrance
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="prodi">Faculty, Departement & Program</label></td>
+              <td>
+                <select id="prodi" name="prodi">
+                  <option>
+                    -- Faculty
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>Engineering</option>
+                  <option>Law</option>
+                  <option>Economics</option>
+                </select>
+              </td>
+              <td>
+                <select id="prodi" name="prodi">
+                  <option>
+                    -- Departement
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>Informatics</option>
+                  <option>Industrial Engineering</option>
+                  <option>Electrical Engineering</option>
+                </select>
+              </td>
+              <td colspan="4">
+                <select id="prodi" name="prodi">
+                  <option>
+                    -- Study Program
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>Informatics</option>
+                  <option>Information System</option>
+                  <option>Industrial Engineering</option>
+                  <option>Mechanical Engineering</option>
+                  <option>Mechatronics Engineering</option>
+                  <option>Electrical Engineering</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="gender">Gender</label>
+              </td>
+              <td colspan="3">
+                Male<input type="radio" name="gender" id="gender" required />
+                Female<input type="radio" name="gender" id="gender" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td colspan="3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="107"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="alamat">Address</label>
+              </td>
+              <td colspan="3" rowspan="4">
+                <textarea
+                  name="alamat"
+                  id="alamat"
+                  cols="100"
+                  rows="5"
+                  required
+                ></textarea>
+              </td>
+            </tr>
+            <!-- END PERSONAL DATA -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- SUPPORT & ACCOUNT -->
+            <tr>
+              <td bgcolor="#1d8348" colspan="5" align="left">
+                <b>SUPPORT & ACCOUNT</b>
+              </td>
+            </tr>
+            <tr>
+              <!-- START GOOGLE SCHOOLAR -->
+              <td colspan="5">
+                <label for="dy">Do you have schoolarship support? </label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <label for="nyscholar"
+                  ><input
+                    type="radio"
+                    name="nyscholar"
+                    id="nyscholar"
+                    required
+                  />No</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <label for="nyscholar"
+                  ><input
+                    type="radio"
+                    name="nyscholar"
+                    id="nyscholar"
+                    required
+                  />Yes</label
+                >
+                <input type="text" name="dy" id="dy" size="135" required />
+              </td>
+            </tr>
+            <!-- END GOOGLE SCHOOLAR -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START TRUNOJOYO EMAIL -->
+            <tr>
+              <td colspan="5">
+                <label for="temail"
+                  >Do you have acces trunojoyo email account?
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <label for="temail"
+                  ><input
+                    type="radio"
+                    name="temail"
+                    id="temail"
+                    required
+                  />No</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <label for="temail"
+                  ><input
+                    type="radio"
+                    name="temail"
+                    id="temail"
+                    required
+                  />Yes</label
+                >
+              </td>
+            </tr>
+            <!-- END TRUNOJOYO EMAIL -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START EDUCATION -->
+            <tr>
+              <td bgcolor="#1d8348" colspan="5"><b>EDUCATION</b></td>
+            </tr>
+
+            <!-- START PRIMARY SCHOLL -->
+            <tr>
+              <td><label for="pschool">Primary School</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="pschool"
+                  id="pschool"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="url1school"
+                  id="url1school"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <select>
+                  <option>
+                    -- Year of Graduate
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <font size="1"><label for="pschool">School Name</label></font>
+              </td>
+              <td colspan="2">
+                <font size="1"
+                  ><label for="url1school">Website URL</label></font
+                >
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END PRIMARY SCHOLL -->
+
+            <!-- START MIDDLE SCHOLL -->
+            <tr>
+              <td><label for="mschool">Middle School</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="mschool"
+                  id="mschool"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="url2school"
+                  id="url2school"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <select>
+                  <option>
+                    -- Year of Graduate
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <font size="1"><label for="mschool">School Name</label></font>
+              </td>
+              <td colspan="2">
+                <font size="1"
+                  ><label for="url2school">Website URL</label></font
+                >
+              </td>
+            </tr>
+            <!-- END MIDDLE SCHOLL -->
+
+            <!-- START HIGH SCHOLL -->
+            <tr>
+              <td><label for="hschool">Hight School</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="hschool"
+                  id="hschool"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="url3school"
+                  id="url3school"
+                  size="30"
+                  required
+                />
+              </td>
+              <td>
+                <select>
+                  <option>
+                    -- Year of Graduate
+                    --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <font size="1"><label for="hschool">School Name</label></font>
+              </td>
+              <td colspan="2">
+                <font size="1"
+                  ><label for="url3school">Website URL</label></font
+                >
+              </td>
+            </tr>
+            <!-- END HIGH SCHOLL -->
+
+            <!-- END EDUCATION -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START SOFTWARE SKILLS -->
+            <tr>
+              <td bgcolor="#1d8348" colspan="5" align="left">
+                <b>SOFTWARE SKILLS</b>
+              </td>
+            </tr>
+
+            <!-- START OFFICE SOFTWARE -->
+            <tr>
+              <td><label for="ofware">Office Software</label></td>
+              <td>
+                <input type="checkbox" name="ofware" id="ofware" />Microsoft
+                Word
+              </td>
+              <td colspan="2">
+                <input type="checkbox" name="ofware" id="ofware" /> Microsoft
+                Acces
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="checkbox" name="ofware" id="ofware" />Microsoft
+                Excel
+              </td>
+              <td colspan="2">
+                <input type="checkbox" name="ofware" id="ofware" /> Other
+              </td>
+            </tr>
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- END OFFICE SOFTWARE -->
+
+            <!-- START OPERATING SYSTEM -->
+            <tr>
+              <td><label for="osys">Operating System</label></td>
+              <td><input type="checkbox" name="osys" id="osys" />Windwos</td>
+              <td colspan="2">
+                <input type="checkbox" name="osys" id="osys" />macOs
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="osys" id="osys" />Linux</td>
+              <td colspan="2">
+                <input type="checkbox" name="osys" id="osys" />Other
+              </td>
+            </tr>
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- END OPERATING SYSTEM -->
+
+            <!-- START PROGRAMMER LANGUANGGE -->
+            <tr>
+              <td><label for="prola">Programing Languangge</label></td>
+              <td><input type="checkbox" name="prola" id="prola" />Python</td>
+              <td colspan="2">
+                <input type="checkbox" name="prola" id="prola" /> C++
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="prola" id="prola" />Java</td>
+              <td colspan="2">
+                <input type="checkbox" name="prola" id="prola" />Other
+              </td>
+            </tr>
+            <!-- END PROGRAMMER LANGUANGGE -->
+
+            <!-- END SOFTWARE SKILLS -->
+
+            <!-- START SPACE -->
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+            <!-- END SPACE -->
+
+            <!-- START BUTTON -->
+            <tr>
+              <td colspan="5">
+                <center><button type="submit">Submit form</button></center>
+              </td>
+            </tr>
+            <!-- END BUTTON -->
+          </table>
+        </fieldset>
+      </form>
+    </font>
+  </body>
+</html>
